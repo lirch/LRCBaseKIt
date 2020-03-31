@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 #支持协议 git、svn、hg、http
 #:git => :tag, :branch, :commit, :submodules
 #:svn => :folder, :tag, :revision
-3:hg => :revision
+#3:hg => :revision
 #:http => :flatten, :type, :sha256, :sha1
 #
 #
