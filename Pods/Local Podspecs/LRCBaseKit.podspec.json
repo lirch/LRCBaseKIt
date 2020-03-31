@@ -1,0 +1,23 @@
+{
+  "name": "LRCBaseKit",
+  "version": "0.0.1",
+  "summary": "A short description of LRCBaseKit.",
+  "description": "test des",
+  "homepage": "https://github.com/lirch/LRCBaseKIt",
+  "license": "MIT",
+  "authors": {
+    "liruichun": "liruichun@quhepai.com"
+  },
+  "source": {
+    "git": "https://github.com/lirch/LRCBaseKIt.git",
+    "branch": "dev"
+  },
+  "source_files": "LRCBaseKit/Class/*.{h,m}",
+  "public_header_files": "LRCBaseKit/Class/*.h",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

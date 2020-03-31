@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: fcc8eb8ace4e5fa4faae1873fdbd86746b385f6d
+PODS:
+  - LRCBaseKit (0.0.1)
+
+DEPENDENCIES:
+  - LRCBaseKit (from `./`)
+
+EXTERNAL SOURCES:
+  LRCBaseKit:
+    :path: ./
+
+SPEC CHECKSUMS:
+  LRCBaseKit: e7ad55f68bd9d41b09afc201d1727bbb4c222ecb
+
+PODFILE CHECKSUM: 788a7878da9c54c795c26162b5febdb9836cc486
 
 COCOAPODS: 1.3.1

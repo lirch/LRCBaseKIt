@@ -7,41 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BE024F8B5ADF9298B822CB7D1669BD6 /* Pods-LRCBaseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CC6DDB5CF661F3B86F2CE6CD00B6C2 /* Pods-LRCBaseKit-dummy.m */; };
+		35A5904E016DD2E7AF06A34BEB203BB2 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C78798167D4CA033DDB84607586F1 /* UIView+Frame.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4F248ED208A112CACB99F8719C9A006E /* Pods-LRCBaseKitUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C66FE3CAC7D5FC945DF980E11E5E7EF0 /* Pods-LRCBaseKitUITests-dummy.m */; };
+		85FB687628388201AA0AA2EEA05ED51B /* LRCBaseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2A35C8BE99EDB82AB205BCF3944261 /* LRCBaseKit-dummy.m */; };
+		914B006141D829EAC81ADE9F8D6B57A0 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = E09CAEB8732ECE0DA16EDDE1BFD06E73 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A13797E2580A8A2F80A53E2FD1F0680B /* Pods-LRCBaseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CC6DDB5CF661F3B86F2CE6CD00B6C2 /* Pods-LRCBaseKit-dummy.m */; };
 		BEDEB0BD3C41DBF351372AC2857E4CF5 /* Pods-LRCBaseKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99B3DF5E925C048279E67899B541AE5 /* Pods-LRCBaseKitTests-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F4EF8E07A61A48FC9EFF90B5C0571C8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B4F47C9A1FFBF9DBD10ADE5C735E256;
+			remoteInfo = LRCBaseKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		04F8CA74DA980D1D23EBB493CA9EE610 /* libPods-LRCBaseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LRCBaseKit.a"; path = "libPods-LRCBaseKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FA4F63B892CAB76ED7E9F5F4469731 /* LRCBaseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRCBaseKit-prefix.pch"; sourceTree = "<group>"; };
 		0500429C354BA8E534BEA954E319C568 /* Pods-LRCBaseKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCBaseKitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0E2E916D1EE7DC91E7526ABA763822C1 /* Pods-LRCBaseKitUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRCBaseKitUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		198052460046C2773C63DCF003C5D487 /* libLRCBaseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLRCBaseKit.a; path = libLRCBaseKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC505A880582DB8FD15FDBA6E0E6A61 /* Pods-LRCBaseKitUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRCBaseKitUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F0C78798167D4CA033DDB84607586F1 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "LRCBaseKit/Class/UIView+Frame.m"; sourceTree = "<group>"; };
 		303D5949EC2D4503B7F3C3AF113E74FE /* Pods-LRCBaseKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRCBaseKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FBFFAF9E27663848AB30651619661E0 /* libPods-LRCBaseKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LRCBaseKitTests.a"; path = "libPods-LRCBaseKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F017A0D001A0706024F8A98460F5A4 /* LRCBaseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRCBaseKit.xcconfig; sourceTree = "<group>"; };
 		4467D9DC2BD28060D7B5E47CCC938472 /* Pods-LRCBaseKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCBaseKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		47F75D359D62391433A66B835AA8AC38 /* Pods-LRCBaseKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCBaseKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		54CC6DDB5CF661F3B86F2CE6CD00B6C2 /* Pods-LRCBaseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRCBaseKit-dummy.m"; sourceTree = "<group>"; };
 		60B0698735CD6F6A6A421CC81CDFC473 /* Pods-LRCBaseKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRCBaseKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6757AC4130E962B51E2E0FF658DFEF99 /* Pods-LRCBaseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCBaseKit.release.xcconfig"; sourceTree = "<group>"; };
-		68123EC477766E6000C9A47F437DB4BF /* libPods-LRCBaseKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LRCBaseKitUITests.a"; path = "libPods-LRCBaseKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6947910834E7BB0FE22D79F814C2EB46 /* Pods-LRCBaseKitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRCBaseKitTests-resources.sh"; sourceTree = "<group>"; };
 		6DA164A1662594DE2E159D0C64EE6446 /* Pods-LRCBaseKitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRCBaseKitTests-frameworks.sh"; sourceTree = "<group>"; };
 		7B19978F9D9950436204E47D278EE239 /* Pods-LRCBaseKitUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRCBaseKitUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8F2A35C8BE99EDB82AB205BCF3944261 /* LRCBaseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRCBaseKit-dummy.m"; sourceTree = "<group>"; };
 		A236E43948CA7E97276311125421C585 /* Pods-LRCBaseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCBaseKit.debug.xcconfig"; sourceTree = "<group>"; };
+		B363A0ED865B6B2ACDE3AF1597B3DAAD /* libPods-LRCBaseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LRCBaseKit.a"; path = "libPods-LRCBaseKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66FE3CAC7D5FC945DF980E11E5E7EF0 /* Pods-LRCBaseKitUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRCBaseKitUITests-dummy.m"; sourceTree = "<group>"; };
 		C99B3DF5E925C048279E67899B541AE5 /* Pods-LRCBaseKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRCBaseKitTests-dummy.m"; sourceTree = "<group>"; };
 		CCFD229ADCDFA0307458DF9F5D9B4460 /* Pods-LRCBaseKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRCBaseKit-frameworks.sh"; sourceTree = "<group>"; };
 		D04A5D82B8B895AB50D379B9BC3BCABF /* Pods-LRCBaseKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRCBaseKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA30828EE46F036D73F0DDA8B58ADBEA /* Pods-LRCBaseKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRCBaseKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		E09CAEB8732ECE0DA16EDDE1BFD06E73 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "LRCBaseKit/Class/UIView+Frame.h"; sourceTree = "<group>"; };
+		EC2EA99C6757701B370FDB18C329EAE3 /* libPods-LRCBaseKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LRCBaseKitUITests.a"; path = "libPods-LRCBaseKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AC4F2BDAE8EF1724FB2D1FA48199D4 /* Pods-LRCBaseKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRCBaseKit-resources.sh"; sourceTree = "<group>"; };
-		F30FDB56C58EC97250F3A662487B9129 /* libPods-LRCBaseKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LRCBaseKitTests.a"; path = "libPods-LRCBaseKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C4B10ED1E1A0C3561FA53C0C87776D /* Pods-LRCBaseKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRCBaseKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDEC67E8E7273AD8281866534E1D252C /* Pods-LRCBaseKitUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRCBaseKitUITests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DBE24C3F833CD09EC117B484164FB46 /* Frameworks */ = {
+		213161A401A693551E6A5121446ACBEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +68,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A07C5D5A61FCB644405289A2C840B618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06BF9677F9477BC9213021C90FF277A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,14 +106,15 @@
 			path = "Target Support Files/Pods-LRCBaseKitTests";
 			sourceTree = "<group>";
 		};
-		47EF2ABF77CA6469A20E82BDAB4773B0 /* Products */ = {
+		3FCDF7D07389D62DB931A6E5D1DEFACF /* LRCBaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				04F8CA74DA980D1D23EBB493CA9EE610 /* libPods-LRCBaseKit.a */,
-				F30FDB56C58EC97250F3A662487B9129 /* libPods-LRCBaseKitTests.a */,
-				68123EC477766E6000C9A47F437DB4BF /* libPods-LRCBaseKitUITests.a */,
+				E09CAEB8732ECE0DA16EDDE1BFD06E73 /* UIView+Frame.h */,
+				2F0C78798167D4CA033DDB84607586F1 /* UIView+Frame.m */,
+				CA333C64BDDD8A08374FD95453B0CAC8 /* Support Files */,
 			);
-			name = Products;
+			name = LRCBaseKit;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		91F52387F42949C9F8F27D34E358665D /* Targets Support Files */ = {
@@ -115,14 +142,45 @@
 			path = "Target Support Files/Pods-LRCBaseKit";
 			sourceTree = "<group>";
 		};
+		B61D9ABF5F034BF2D050E4DCB9841655 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FCDF7D07389D62DB931A6E5D1DEFACF /* LRCBaseKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CA333C64BDDD8A08374FD95453B0CAC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40F017A0D001A0706024F8A98460F5A4 /* LRCBaseKit.xcconfig */,
+				8F2A35C8BE99EDB82AB205BCF3944261 /* LRCBaseKit-dummy.m */,
+				03FA4F63B892CAB76ED7E9F5F4469731 /* LRCBaseKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/LRCBaseKit";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				B61D9ABF5F034BF2D050E4DCB9841655 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				47EF2ABF77CA6469A20E82BDAB4773B0 /* Products */,
+				D1EDFAFD72B38368F103E4E9DAC15A5F /* Products */,
 				91F52387F42949C9F8F27D34E358665D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D1EDFAFD72B38368F103E4E9DAC15A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				198052460046C2773C63DCF003C5D487 /* libLRCBaseKit.a */,
+				B363A0ED865B6B2ACDE3AF1597B3DAAD /* libPods-LRCBaseKit.a */,
+				3FBFFAF9E27663848AB30651619661E0 /* libPods-LRCBaseKitTests.a */,
+				EC2EA99C6757701B370FDB18C329EAE3 /* libPods-LRCBaseKitUITests.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -157,10 +215,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D70CE9496D67F2F32D144D51B09DB2 /* Headers */ = {
+		78A82116CEEFF3CFB1FA1F0D527A2B53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE77062988A71350123F10CB9502658 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914B006141D829EAC81ADE9F8D6B57A0 /* UIView+Frame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,21 +240,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B495FF26C8856E9455AEAA782074CAB /* Pods-LRCBaseKit */ = {
+		6B4F47C9A1FFBF9DBD10ADE5C735E256 /* LRCBaseKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD502BDEE941A1A54A2E337F9A9288C4 /* Build configuration list for PBXNativeTarget "Pods-LRCBaseKit" */;
+			buildConfigurationList = 3453CF388B9EECCF7B5AAF3995892C4A /* Build configuration list for PBXNativeTarget "LRCBaseKit" */;
 			buildPhases = (
-				65D70CE9496D67F2F32D144D51B09DB2 /* Headers */,
-				F2D563F63C63302FB8DF46E8D062F78B /* Sources */,
-				6DBE24C3F833CD09EC117B484164FB46 /* Frameworks */,
+				8FE77062988A71350123F10CB9502658 /* Headers */,
+				B89F2ED15525EB7A73E3C50306B4D6FA /* Sources */,
+				C06BF9677F9477BC9213021C90FF277A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-LRCBaseKit";
-			productName = "Pods-LRCBaseKit";
-			productReference = 04F8CA74DA980D1D23EBB493CA9EE610 /* libPods-LRCBaseKit.a */;
+			name = LRCBaseKit;
+			productName = LRCBaseKit;
+			productReference = 198052460046C2773C63DCF003C5D487 /* libLRCBaseKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		6BBAD168A217409C2769711C568C0EBE /* Pods-LRCBaseKitTests */ = {
@@ -205,7 +271,25 @@
 			);
 			name = "Pods-LRCBaseKitTests";
 			productName = "Pods-LRCBaseKitTests";
-			productReference = F30FDB56C58EC97250F3A662487B9129 /* libPods-LRCBaseKitTests.a */;
+			productReference = 3FBFFAF9E27663848AB30651619661E0 /* libPods-LRCBaseKitTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A330C0E2068FDCE0933CCF8B7130E930 /* Pods-LRCBaseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9F46D86963435AD2221AAB222BFB20F /* Build configuration list for PBXNativeTarget "Pods-LRCBaseKit" */;
+			buildPhases = (
+				78A82116CEEFF3CFB1FA1F0D527A2B53 /* Headers */,
+				E3B25BB773EB224A46B41C9978EC0027 /* Sources */,
+				213161A401A693551E6A5121446ACBEC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B9B124AE4CA545306222307592DE1A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-LRCBaseKit";
+			productName = "Pods-LRCBaseKit";
+			productReference = B363A0ED865B6B2ACDE3AF1597B3DAAD /* libPods-LRCBaseKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		AA0C9EB8E30EE50917C70484F31A747E /* Pods-LRCBaseKitUITests */ = {
@@ -222,7 +306,7 @@
 			);
 			name = "Pods-LRCBaseKitUITests";
 			productName = "Pods-LRCBaseKitUITests";
-			productReference = 68123EC477766E6000C9A47F437DB4BF /* libPods-LRCBaseKitUITests.a */;
+			productReference = EC2EA99C6757701B370FDB18C329EAE3 /* libPods-LRCBaseKitUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -243,11 +327,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 47EF2ABF77CA6469A20E82BDAB4773B0 /* Products */;
+			productRefGroup = D1EDFAFD72B38368F103E4E9DAC15A5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B495FF26C8856E9455AEAA782074CAB /* Pods-LRCBaseKit */,
+				6B4F47C9A1FFBF9DBD10ADE5C735E256 /* LRCBaseKit */,
+				A330C0E2068FDCE0933CCF8B7130E930 /* Pods-LRCBaseKit */,
 				6BBAD168A217409C2769711C568C0EBE /* Pods-LRCBaseKitTests */,
 				AA0C9EB8E30EE50917C70484F31A747E /* Pods-LRCBaseKitUITests */,
 			);
@@ -263,11 +348,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2D563F63C63302FB8DF46E8D062F78B /* Sources */ = {
+		B89F2ED15525EB7A73E3C50306B4D6FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BE024F8B5ADF9298B822CB7D1669BD6 /* Pods-LRCBaseKit-dummy.m in Sources */,
+				85FB687628388201AA0AA2EEA05ED51B /* LRCBaseKit-dummy.m in Sources */,
+				35A5904E016DD2E7AF06A34BEB203BB2 /* UIView+Frame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B25BB773EB224A46B41C9978EC0027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13797E2580A8A2F80A53E2FD1F0680B /* Pods-LRCBaseKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +375,39 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0B9B124AE4CA545306222307592DE1A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LRCBaseKit;
+			target = 6B4F47C9A1FFBF9DBD10ADE5C735E256 /* LRCBaseKit */;
+			targetProxy = F4EF8E07A61A48FC9EFF90B5C0571C8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1064CC4647537B40CD292643CFE30A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F017A0D001A0706024F8A98460F5A4 /* LRCBaseKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LRCBaseKit/LRCBaseKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		123C746187CB203E3D266596C6D71E59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,7 +512,7 @@
 			};
 			name = Release;
 		};
-		3B7A1ECE064A2613E25B245A5417E51C /* Debug */ = {
+		4FE3A0D519910EAD230509D7AD201BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A236E43948CA7E97276311125421C585 /* Pods-LRCBaseKit.debug.xcconfig */;
 			buildSettings = {
@@ -492,6 +618,28 @@
 			};
 			name = Debug;
 		};
+		BD72291173B325FF69001D2BC2137DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F017A0D001A0706024F8A98460F5A4 /* LRCBaseKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LRCBaseKit/LRCBaseKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		CA1DD58563828CE9318928E270A3C4D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47F75D359D62391433A66B835AA8AC38 /* Pods-LRCBaseKitUITests.debug.xcconfig */;
@@ -512,7 +660,7 @@
 			};
 			name = Debug;
 		};
-		D09DAC3EE0B2BAE5FAA96C041C5CC494 /* Release */ = {
+		DF04D008374398B2E378166605D6262B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6757AC4130E962B51E2E0FF658DFEF99 /* Pods-LRCBaseKit.release.xcconfig */;
 			buildSettings = {
@@ -545,6 +693,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3453CF388B9EECCF7B5AAF3995892C4A /* Build configuration list for PBXNativeTarget "LRCBaseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD72291173B325FF69001D2BC2137DAE /* Debug */,
+				1064CC4647537B40CD292643CFE30A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		464EEA5FAF77AFB26A281C1020C4F899 /* Build configuration list for PBXNativeTarget "Pods-LRCBaseKitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -563,11 +720,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD502BDEE941A1A54A2E337F9A9288C4 /* Build configuration list for PBXNativeTarget "Pods-LRCBaseKit" */ = {
+		B9F46D86963435AD2221AAB222BFB20F /* Build configuration list for PBXNativeTarget "Pods-LRCBaseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B7A1ECE064A2613E25B245A5417E51C /* Debug */,
-				D09DAC3EE0B2BAE5FAA96C041C5CC494 /* Release */,
+				4FE3A0D519910EAD230509D7AD201BFB /* Debug */,
+				DF04D008374398B2E378166605D6262B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
