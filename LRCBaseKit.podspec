@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/lirch/LRCBaseKIt"#主页
 
-  s.license      = "MIT"#许可协议
+  s.license      = { :type => "MIT", :file => "LICENSE" }#许可协议
   s.author             = { "liruichun" => "liruichun@quhepai.com" }#作者
   
-  s.source       = { :git => "https://github.com/lirch/LRCBaseKIt.git", :tag => "#{s.version}" }#仓库地址
+  s.source       = { :git => "https://github.com/lirch/LRCBaseKIt.git", :tag => s.version }#仓库地址
   # s.source       = { :git => "https://github.com/lirch/LRCBaseKIt.git", :branch => 'dev' }
 
   s.source_files  = 'LRCBaseKit/Class/*.{h,m}'#指定库包含的源代码文件
