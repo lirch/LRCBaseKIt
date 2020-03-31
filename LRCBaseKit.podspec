@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "liruichun" => "liruichun@quhepai.com" }
   
-  # s.source       = { :git => "https://github.com/lirch/LRCBaseKIt.git", :tag => "#{s.version}" }
-  s.source       = { :git => "https://github.com/lirch/LRCBaseKIt.git", :branch => 'dev' }
+  s.source       = { :git => "https://github.com/lirch/LRCBaseKIt.git", :tag => "#{s.version}" }
+  # s.source       = { :git => "https://github.com/lirch/LRCBaseKIt.git", :branch => 'dev' }
 
   s.source_files  = 'LRCBaseKit/Class/*.{h,m}'
   # s.exclude_files = "Classes/Exclude"
