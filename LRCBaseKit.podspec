@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "LICENSE" }#许可协议
   s.author             = { "liruichun" => "liruichun@quhepai.com" }#作者
-  
+  s.platform     = :ios, "8.0"
+  s.requires_arc = true
   s.source       = { :git => "https://github.com/lirch/LRCBaseKIt.git", :tag => s.version }#仓库地址
   # s.source       = { :git => "https://github.com/lirch/LRCBaseKIt.git", :branch => 'dev' }
 
